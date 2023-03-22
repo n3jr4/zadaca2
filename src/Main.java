@@ -3,7 +3,7 @@ public class Main {
 
         // Zadatak 1
 
-        int spentMoney = 5;
+        int spentMoney = -5;
         int givenMoney = 100;
         //double cashState = 100;
 
@@ -198,13 +198,12 @@ public class Main {
             }
         }
          else {
-
-            if (spentMoney == 0) {
                 System.out.println("You didn't buy anything, did you?");
-            } else if (spentMoney < 0) {
+            if (spentMoney < 0) {
                 System.out.println("“Did you maybe break something?");
-            }
         }
+    }
+
 
 
         // Zadatak 2
