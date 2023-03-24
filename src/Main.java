@@ -23,7 +23,7 @@ public class Main {
         int cashState1 = 2;
         int cashState05 = 0;
         int cashState02 = 0;
-        int cashState01 = 200;
+        int cashState01 = 0;
         int cashState001 =0;
 
         if ((spentMoney > 0)) {
@@ -146,7 +146,7 @@ public class Main {
                     change1 = change1 - (numApoen001 * apoen001);
                 }
 
-                if (change == change1) {
+                if ((change == change1) || (change1>0)) {
                     System.out.println("SORRY THE CASH REGISTER DOES NOT HAVE THE REQUIRED AMOUNT OF MONEY");
                 }
 
